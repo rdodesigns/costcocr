@@ -1,5 +1,3 @@
-# Put imports here
-
 from .receipt import (
         Receipt,
         ItemList,
@@ -8,3 +6,7 @@ from .receipt import (
         )
 
 from . import writers
+
+from .codes import (
+        codes
+    )
