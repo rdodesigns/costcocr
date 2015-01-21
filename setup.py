@@ -41,7 +41,9 @@ setup( name             = 'costcocr'
         ]
      , packages         = ['costcocr']
      , install_requires =
-        [ 'six >= 1.6'
+        [
+            'six >= 1.6',
+            'toolz',
         ]
      , zip_safe         = False
      , tests_require    = ['pytest']
