@@ -8,4 +8,5 @@ Packages Requires
 -----------------
 
 - python 2.7 or python 3.4
-- tesseract >=3.03
+- six >= 1.6
+- toolz
